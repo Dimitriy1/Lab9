@@ -39,6 +39,5 @@ public class Main {
         ServiceFactory.getTestService().getAllTests().stream().forEach(System.out::println);
         ServiceFactory.getPatientService().getPatientsWithGlucoseHigherThan(130.0).stream().forEach(System.out::println);
         ServiceFactory.getTestService().getAllTestsInDateRange(LocalDate.of(1997,10,10),LocalDate.now());
-
     }
 }
