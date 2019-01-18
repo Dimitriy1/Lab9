@@ -10,9 +10,9 @@ import java.time.LocalDate;
 @Entity(name = "skin_test")
 public class SkinTest extends Test {
     @Column
-    Double dryness;
+    private Double dryness;
     @Column
-    Double oily;
+    private Double oily;
 
     public SkinTest() {
 
