@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @Entity(name = "blood_test")
 public class BloodTest extends Test {
     @Column(name = "level_of_glucose")
-    Double levelOfGlucose;
+    private Double levelOfGlucose;
 
     public BloodTest() {
 
