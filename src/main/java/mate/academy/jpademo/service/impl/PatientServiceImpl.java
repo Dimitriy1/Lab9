@@ -7,7 +7,7 @@ import mate.academy.jpademo.service.PatientService;
 import java.util.Set;
 
 public class PatientServiceImpl implements PatientService {
-    PatientDao patienceDao;
+    private PatientDao patienceDao;
 
     public PatientServiceImpl(PatientDao patienceDao) {
         this.patienceDao = patienceDao;
