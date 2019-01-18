@@ -2,7 +2,6 @@ package mate.academy.jpademo.service;
 
 import mate.academy.jpademo.model.Patient;
 
-import java.util.List;
 import java.util.Set;
 
 public interface PatientService {
