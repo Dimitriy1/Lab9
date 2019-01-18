@@ -10,5 +10,4 @@ public interface AccessoryService {
     void update(Accessory accessory);
 
     void delete(Accessory accessory);
-
 }
