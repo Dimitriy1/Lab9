@@ -6,9 +6,8 @@ import mate.academy.jpademo.model.accessory.Accessory;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
-import java.io.Serializable;
 
-public class AccessoryDaoImpl extends AbstractDao implements AccessoryDao, Serializable {
+public class AccessoryDaoImpl extends AbstractDao implements AccessoryDao {
 
     public AccessoryDaoImpl(EntityManager entityManager) {
         super(entityManager);
