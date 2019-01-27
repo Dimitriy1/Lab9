@@ -19,4 +19,7 @@ public class HibernateUtil {
     public static EntityManager getEntityManager() {
         return emf.createEntityManager();
     }
+    
+    private HibernateUtil() {
+    }
 }
